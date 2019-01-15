@@ -1,0 +1,29 @@
+{
+  "name": "simple-typescript-node-app",
+  "version": "1.0.0",
+  "description": "Simple Node App using Typescript",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node out/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandeepkv93/simple-typescript-node-app.git"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "Sandeep Vishnu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sandeepkv93/simple-typescript-node-app/issues"
+  },
+  "homepage": "https://github.com/sandeepkv93/simple-typescript-node-app#readme",
+  "dependencies": {
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.119"
+  }
+}
